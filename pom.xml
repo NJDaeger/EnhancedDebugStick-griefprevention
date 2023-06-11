@@ -57,48 +57,7 @@
             </resource>
         </resources>
 
-        <!-- <plugins> -->
-            <!-- <plugin> -->
-                <!-- <artifactId>maven-assembly-plugin</artifactId> -->
-                <!-- <executions> -->
-                    <!-- <execution> -->
-                        <!-- <phase>package</phase> -->
-                        <!-- <goals> -->
-                            <!-- <goal>single</goal> -->
-                        <!-- </goals> -->
-                    <!-- </execution> -->
-                <!-- </executions> -->
-                <!-- <configuration> -->
-                    <!-- <descriptorRefs> -->
-                        <!-- <descriptorRef>jar-with-dependencies</descriptorRef> -->
-                    <!-- </descriptorRefs> -->
-                    <!-- <finalName>EnhancedDebugStick-GriefPrevention-${project.version}</finalName> -->
-                    <!-- <outputDirectory>${project.parent.basedir}/jars</outputDirectory> -->
-                    <!-- <appendAssemblyId>false</appendAssemblyId> -->
-                <!-- </configuration> -->
-            <!-- </plugin> -->
-            <!-- <plugin> -->
-                <!-- <groupId>org.apache.maven.plugins</groupId> -->
-                <!-- <artifactId>maven-shade-plugin</artifactId> -->
-                <!-- <version>3.1.1</version> -->
-                <!-- <executions> -->
-                    <!-- <execution> -->
-                        <!-- <phase>package</phase> -->
-                        <!-- <goals> -->
-                            <!-- <goal>shade</goal> -->
-                        <!-- </goals> -->
-                    <!-- </execution> -->
-                <!-- </executions> -->
-                <!-- <configuration> -->
-                    <!-- <relocations> -->
-                        <!-- <relocation> -->
-                            <!-- <pattern>com.njdaeger.pdk</pattern> -->
-                            <!-- <shadedPattern>com.njdaeger.enhanceddebugstick.libs.pdk</shadedPattern> -->
-                        <!-- </relocation> -->
-                    <!-- </relocations> -->
-                <!-- </configuration> -->
-            <!-- </plugin> -->
-        <!-- </plugins> -->
+        <finalName>EnhancedDebugStick-GriefPrevention-v${project.version}</finalName>
 
     </build>
 </project>
